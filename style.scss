@@ -1,0 +1,62 @@
+body{
+	background-image: url("gray.png");
+	background-size: cover;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background: rgb(32,32,34);
+        background: linear-gradient(90deg, rgba(32,32,34,1) 0%, rgba(80,80,87,1) 47%, rgba(180,188,190,1) 100%);
+    }
+    #columns{
+        color:white;
+    }
+}
+#courses_paragraph {
+	color: #DCDCDC;
+}
+h1{
+	text-align: center;
+}
+h2{
+    @extend h1;
+    text-decoration: underline;
+}
+#profile_picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#recommendations {
+	font-size: 200%;
+}
+
+#courses_paragraph
+{
+	margin-top: 10px;
+	margin-left: 5%;
+	font-size: 150%;
+	color: white;
+}
+
+.card-deck-wrapper {	
+	margin-top:5%;
+	margin-left:10%;
+    margin-right:10%;
+    .card {
+        max-width: 383px;
+        img {
+            height: 100%;
+            width: 100%;
+            max-height: 180px;
+            max-width: 383px;
+        }
+        .card-text{
+            color:black;
+        }
+    }
+}

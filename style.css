@@ -1,0 +1,70 @@
+body {
+  background-image: url("gray.png");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background: #202022;
+    background: -webkit-gradient(linear, left top, right top, from(#202022), color-stop(47%, #505057), to(#b4bcbe));
+    background: linear-gradient(90deg, #202022 0%, #505057 47%, #b4bcbe 100%);
+  }
+  #columns {
+    color: white;
+  }
+}
+
+#courses_paragraph {
+  color: #DCDCDC;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#profile_picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#recommendations {
+  font-size: 200%;
+}
+
+#courses_paragraph {
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 150%;
+  color: white;
+}
+
+.card-deck-wrapper {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-deck-wrapper .card {
+  max-width: 383px;
+}
+
+.card-deck-wrapper .card img {
+  height: 100%;
+  width: 100%;
+  max-height: 180px;
+  max-width: 383px;
+}
+
+.card-deck-wrapper .card .card-text {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
